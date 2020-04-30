@@ -1,7 +1,7 @@
 // ⭐️ Example Challenge start ⭐️
 
 /**
- * ### Challenge `addNumbers`
+ * ### Challenge `addNumbers'
  * 
  * @instructions
  * This function should be able to take two numbers as arguments
@@ -15,6 +15,9 @@
 function addNumbers(num1, num2) {
   return num1 + num2;
 }
+console.log(addNumbers(6,7));
+
+
 
 // ⭐️ Example Challenge end ⭐️
 
@@ -39,9 +42,10 @@ function addNumbers(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(/* code here */) {
+function makePersonObject(id, name, email) { return{id,name,email}
   /* code here */
 }
+console.log(makePersonalObject(5, 'junior', 'junior@gmail.com'));
 
 /**
  * ### Challenge `getName`
